@@ -75,6 +75,27 @@ header{
     background: #fefefe;
     border: none;
 }
+/*responsve*/
+@media only screen and (max-width: 375px) {
+    .hero_content h1{
+        font-size: 45px!important;
+    }
+    .footer_f_image{
+        width: 300px;
+    }
+    .two_column_8{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 12px; 
+    }
+    .social{
+        display: none;
+      }
+      .footer_content{
+        margin-left: 180px;
+    margin-top: 100px;
+      }
+}
 
 @media only screen and (max-width: 1320px) {
     header{
@@ -250,4 +271,22 @@ header{
   }
   .form_btn{
     margin-left: 500px;
+  }
+  .footer_f{
+    background: url(../images/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)\ copy\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer_content p{
+    margin-left: 180px;
+    margin-top: 100px;
+  }
+  .footer_content h6{
+    margin-left: 230px;
+    
+  }
+  .social{
+    font-size: 35px;
+    margin-left: 360px;
+    margin-top: 120px;
   }
