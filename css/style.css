@@ -101,24 +101,21 @@ header{
 .banner{
     background: #ffc74a;
 }
-.banner_content p{}
-.banner_content h1{}
-.banner_content h3{}
-.banner_content_image{
-  
-}
 .hero_content p{
     font-size: 18px;
     font-family: 'Bebas Neue', cursive;
+    color: #412307;
 }
 .hero_content h1{
     font-size: 85px;
     font-weight: 800;
     font-family: 'Alfa Slab One', cursive;
+    color:#412307;
 }
 .hero_content h3{
     font-size: 45px;
     font-family: 'Alfa Slab One', cursive;
+    color: #412307;
 }
 .banner_content_image {
     background: url(../images/headerImg.png);
@@ -128,4 +125,19 @@ header{
 
 .banner{
     background: #ffc74a;
+}
+.card1{
+    background: url(../images/Burger\ Image\ copy\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    font-family: font-family: 'Bebas Neue', cursive;;
+}
+.popular_1{
+    background: url(../images/Burger\ Image\ copy\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new{
+    display: ;
 }
