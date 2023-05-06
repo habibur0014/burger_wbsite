@@ -130,7 +130,7 @@ header{
     background: url(../images/Burger\ Image\ copy\ 4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 45vh;
     font-family: font-family: 'Bebas Neue', cursive;;
 }
 .popular_1{
@@ -140,4 +140,33 @@ header{
 }
 .new{
     display: ;
+}
+
+/*CSS for two_column*/
+.column_1{
+    background: url(../images/Burger\ Image\ copy\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.card1{
+    background: url(../images/Image\ copy\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.card2{
+    background: url(../images/Image\ copy\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vh;
+}
+.card{
+    border:none !important;
+}
+.two_column_1{
+    margin-left: 5;
+}
+.two_column_img{
+    width: 100%;
 }
